@@ -1,0 +1,189 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        ".h1 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_image": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": false,
+        "content_width": "md",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "collection_list_YbJtPe": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Pfe4GG": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "500g",
+            "image": "shopify://shop_images/1_6ffc3806-d21c-43f2-99ca-d30ab11e8deb.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/500g",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_nJfVpb": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "600g",
+            "image": "shopify://shop_images/2_e6e10d47-31a2-44a7-b4d3-5e32a791a627.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/600g",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_D7GpEa": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "700g",
+            "image": "shopify://shop_images/3_2c8eed46-315c-4d9c-b8da-43bbe58a5e14.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/700g",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_UUJwrt": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "800g",
+            "image": "shopify://shop_images/4_db128d13-847a-447c-8772-6d78e43c8170.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/800g",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_8Krxit": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "900g",
+            "image": "shopify://shop_images/5_62d94b87-7de3-4608-be9a-3a1c8324e86d.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/900g",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_gBzFRM": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "1000g",
+            "image": "shopify://shop_images/6_9451b2ec-e912-493f-92f4-cbc78883fdd3.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/1000g",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_Pfe4GG",
+        "collection_nJfVpb",
+        "collection_D7GpEa",
+        "collection_UUJwrt",
+        "collection_8Krxit",
+        "collection_gBzFRM"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "2",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "collection_list_YbJtPe"
+  ]
+}

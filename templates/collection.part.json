@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        ".h1 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_image": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": false,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "collection_list_YbJtPe": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Pfe4GG": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "momo",
+            "image": "shopify://shop_images/8_9f5160cf-d23a-4ba2-856a-6b8a02775920.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/momo",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_nJfVpb": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "sirloin",
+            "image": "shopify://shop_images/6_1988a614-0c5f-451c-8159-f8e06e7185e4.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/sirloin",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_D7GpEa": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "catalose",
+            "image": "shopify://shop_images/7_44d7067f-e2f2-4627-b91a-a0b6a00c1e2a.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/catalose",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_UUJwrt": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "rib-roast",
+            "image": "shopify://shop_images/4_caaca2c8-c08d-42aa-9dd1-9f698dd25a0f.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/rib-roast",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_8Krxit": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "loin",
+            "image": "shopify://shop_images/3_515b9eea-54a7-4357-a8ec-d3a69896cf60.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/loin",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_gBzFRM": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "triangular-rose",
+            "image": "shopify://shop_images/2_bfdf5384-c2e3-4a1c-af86-71ee0edec021.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/triangular-rose",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_qdDPRF": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-774e9679-a421-4535-a05d-31e840cc36a9",
+            "collection": "lamp",
+            "image": "shopify://shop_images/5_fc715bf0-559f-4215-b999-b7ad99744f77.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "詳細はこちら",
+            "button_link": "shopify://collections/lamp",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_Pfe4GG",
+        "collection_nJfVpb",
+        "collection_D7GpEa",
+        "collection_UUJwrt",
+        "collection_8Krxit",
+        "collection_gBzFRM",
+        "collection_qdDPRF"
+      ],
+      "custom_css": [
+        ".collection-list__item .button {color: #000000 !important;}"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "2",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "collection_list_YbJtPe"
+  ]
+}

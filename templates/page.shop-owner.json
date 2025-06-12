@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_ckKpaH": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yHwrqK": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_YcGQmK": {
+          "type": "heading",
+          "settings": {
+            "text": "特別な日に食べたい極上の神戸牛をお届け",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_ig3mdY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>神明精肉店は、地元の名産品「神戸牛」を中心に取り扱うお店です。安心・安全・高品質の国産和牛を日々厳選しています。ステーキや焼肉、しゃぶしゃぶなど幅広い用途に合うよう、さまざまな商品をご用意しました。特別な日や、ちょっぴり贅沢したい日に。ぜひご利用ください。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yHwrqK",
+        "heading_YcGQmK",
+        "richtext_ig3mdY"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_BTKaBF": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_DyLXnF": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>店主 代表取締役</strong>"
+          }
+        },
+        "heading_kGK6kE": {
+          "type": "heading",
+          "settings": {
+            "text": "高橋 博之",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Vwkdap": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>長年精肉業界に携わってきたことから「うまい肉」を見極める目利きのプロが在籍しております。そんな当店がご提供するのは、安全でおいしい国産和牛です。お祝いやイベントなど、スペシャルな時間にふさわしい和牛を取りそろえました。プロが選んだ絶品のお肉を、ぜひ一度楽しんでみてください。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DyLXnF",
+        "heading_kGK6kE",
+        "richtext_Vwkdap"
+      ],
+      "custom_css": [
+        ".h1 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/slider1.webp",
+        "mobile_image": "shopify://shop_images/slider1.webp",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_bUwLDK": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Xir88B": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_PWPNYb": {
+          "type": "heading",
+          "settings": {
+            "text": "徹底して鮮度をキープ",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_7Uzh4i": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>通販でお肉を買うとなると、どうしても鮮度が気になってしまいませんか？当店では梱包の際、お肉をビニールに入れて1日真空状態にしたあとに炭酸ガスを注入するという方法を導入しています。お肉が傷つくのを防ぎながら、新鮮な状態をキープすることができるのです。炭酸ガスがお肉の味に影響することはありませんので、ご安心ください。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Xir88B",
+        "heading_PWPNYb",
+        "richtext_7Uzh4i"
+      ],
+      "custom_css": [
+        ".h3 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/2.png",
+        "mobile_image": "shopify://shop_images/2.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_xTmki6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_MFzzdy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_3xmADx": {
+          "type": "heading",
+          "settings": {
+            "text": "こだわりの神戸牛",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_amqJdg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>当店では月齢32カ月～34カ月が最もおいしいと考え、ベストな状態のお肉をご提供しています。「和牛といえば、神明精肉店」と思ってもらえるよう、手間暇を惜しみません。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MFzzdy",
+        "heading_3xmADx",
+        "richtext_amqJdg"
+      ],
+      "custom_css": [
+        ".h3 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/1.png",
+        "mobile_image": "shopify://shop_images/1.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_g7XCBw": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_qLTrQJ": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_wmhBiQ": {
+          "type": "heading",
+          "settings": {
+            "text": "贈り物にもピッタリ",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_KzaCYf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>とろけるような口溶け、まろやかで上品なうま味、赤みの中に広がるきめ細かな霜降り…。味はもちろんのこと、見た目にも美しい神戸牛は贈答品にも最適だと考えています。商品は化粧箱に入っていますので、高級感もたっぷりです。大切な人やお世話になった人へ、神戸牛を贈ってみませんか？</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qLTrQJ",
+        "heading_wmhBiQ",
+        "richtext_KzaCYf"
+      ],
+      "custom_css": [
+        ".h3 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/slider2.webp",
+        "mobile_image": "shopify://shop_images/slider2.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_ckKpaH",
+    "image_with_text_BTKaBF",
+    "image_with_text_bUwLDK",
+    "image_with_text_xTmki6",
+    "image_with_text_g7XCBw"
+  ]
+}

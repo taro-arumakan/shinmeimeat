@@ -1,0 +1,339 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".h2 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "faq_AVpKXg": {
+      "type": "faq",
+      "blocks": {
+        "category_E68bQH": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_dXeq7C": {
+          "type": "question",
+          "settings": {
+            "question": "1.商品を選択してショッピングカートに入れる",
+            "answer": "<p>ご希望の商品のページで、商品の種類や個数などを入力したうえで「カートに入れる」ボタンをクリックしてください。</p>"
+          }
+        },
+        "question_V3QABC": {
+          "type": "question",
+          "settings": {
+            "question": "2.ショッピングを続ける or カート確認に進む",
+            "answer": "<p>お買い物を続ける場合は、「ショッピングを続ける」ボタン、もしくは右上の×ボタンを選び、ショッピングカートを閉じてください。<br/>お買い物とご購入商品のご確認が終わりましたら、ショッピングカート内の「カートを確認する」ボタンを押してください。</p>"
+          }
+        },
+        "question_TnPUfP": {
+          "type": "question",
+          "settings": {
+            "question": "遠方に配送してもらうことはできますか？",
+            "answer": "<p>もちろん可能です。遠方にお住まいでもおいしく召し上がっていただくため、蓄冷剤の量を細かく管理して配送しております。</p>"
+          }
+        },
+        "question_mHMt8z": {
+          "type": "question",
+          "settings": {
+            "question": "配達された際に不在で、商品を受け取れなかった場合はどうすればいいですか？",
+            "answer": "<p>ご不在の場合は、ヤマト運輸の不在票が郵便受けに入っておりますので、直接ヤマト運輸にご在宅の日時をお伝えください。</p>"
+          }
+        },
+        "question_AaPawp": {
+          "type": "question",
+          "settings": {
+            "question": "法人向けの販売はありますか？",
+            "answer": "<p>法人様からのご注文も大歓迎ですので、まずはご相談ください。ご予算やシチュエーションなどを伺い、最適な商品をご提案いたします。のしをはじめ、あいさつ状の同封、領収書の発行などさまざまな対応が可能です。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_E68bQH",
+        "question_dXeq7C",
+        "question_V3QABC",
+        "question_TnPUfP",
+        "question_mHMt8z",
+        "question_AaPawp"
+      ],
+      "disabled": true,
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_categories": true,
+        "subheading": "",
+        "title": "ショッピングガイド",
+        "content": ""
+      }
+    },
+    "rich_text_xNRqV8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cTiJgK": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Dd7Jrz": {
+          "type": "heading",
+          "settings": {
+            "text": "1.商品を選択してカートに入れる",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_WiJbkH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>ご希望の商品のページで、商品の種類や個数などを入力したうえで「カートに入れる」ボタンをクリックしてください。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cTiJgK",
+        "heading_Dd7Jrz",
+        "richtext_WiJbkH"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_m6KXFR": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_49zqf7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_t4ReG6": {
+          "type": "heading",
+          "settings": {
+            "text": "2.ショッピングを続ける / カート確認に進む",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_nPkdxd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>お買い物を続ける場合は、右上の×ボタンを選び、ショッピングカートを閉じてください。<br/><br/>お買い物とご購入商品のご確認が終わりましたら、ショッピングカート内の「チェックアウト」ボタンを押してください。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_49zqf7",
+        "heading_t4ReG6",
+        "richtext_nPkdxd"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_4DhHpQ": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_HbBzQk": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Kafec4": {
+          "type": "heading",
+          "settings": {
+            "text": "3.カートの中身を確認する",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_mj9KK8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>すべての必要事項のご入力・ご確認が完了しましたら、「ご注文完了」ボタンを押してください。<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HbBzQk",
+        "heading_Kafec4",
+        "richtext_mj9KK8"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_8bkgY8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_ATpQnR": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_QLDMLa": {
+          "type": "heading",
+          "settings": {
+            "text": "4.ご注文完了",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_MNCQNp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>ご注文完了後、ご登録いただいたメールアドレス宛てに「ご注文の確認メール」を送信いたします。<br/>商品が届くまで、削除せず保管してください。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ATpQnR",
+        "heading_QLDMLa",
+        "richtext_MNCQNp"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "faq_a77a48": {
+      "type": "faq",
+      "blocks": {
+        "category_UQtnK8": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_Ty96Yd": {
+          "type": "question",
+          "settings": {
+            "question": "商品はいつごろ届きますか？",
+            "answer": "<p>ご入金確認後、出荷まで２営業日程度いただきます。<br/>お客様がお住まいの地域や、ご注文の時期によって配送の所要日数に変動が生じます。<br/></p>"
+          }
+        },
+        "question_LbaTRn": {
+          "type": "question",
+          "settings": {
+            "question": "配送先を変更したいのですが…",
+            "answer": "<p>注文完了後の配送先の変更ができかねますのでお手数ではございますが「お問い合わせ」よりご連絡ください</p>"
+          }
+        },
+        "question_XMnVjw": {
+          "type": "question",
+          "settings": {
+            "question": "購入後の返品は可能ですか？",
+            "answer": "<p>取扱商品が生鮮食品のため、原則としてお客様のご都合による返品・交換はいたしかねます。ただし、「注文以外の商品」や「配送中の事故による商品の破損・損傷」の場合は、新しい商品と交換もしくは返金いたします。</p>"
+          }
+        },
+        "question_hM9yBX": {
+          "type": "question",
+          "settings": {
+            "question": "クーポンコードはどこで入力しますか？",
+            "answer": "<p>決済画面にクーポンコードを入力する欄があるので指定のクーポンコードを入力後、「適用」を押してください</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_UQtnK8",
+        "question_Ty96Yd",
+        "question_LbaTRn",
+        "question_XMnVjw",
+        "question_hM9yBX"
+      ],
+      "custom_css": [
+        ".h2 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "商品購入時のよくあるご質問",
+        "content": ""
+      }
+    },
+    "contact_8cUdf7": {
+      "type": "contact",
+      "custom_css": [
+        ".h2 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "お問い合わせ",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_AVpKXg",
+    "rich_text_xNRqV8",
+    "rich_text_m6KXFR",
+    "rich_text_4DhHpQ",
+    "rich_text_8bkgY8",
+    "faq_a77a48",
+    "contact_8cUdf7"
+  ]
+}

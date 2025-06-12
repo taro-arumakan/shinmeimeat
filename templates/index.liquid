@@ -1,0 +1,280 @@
+<section class="slide-fv relative">
+  <div class="top-slider">
+    <div class="item">
+      <a href="#">
+        <picture>
+          <source media="(max-width: 767px)" srcset="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/sp-slider1.webp">
+          <img src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/slider1.webp" alt="" width="1905" height="904">
+        </picture>
+      </a>
+    </div>
+    <div class="item">
+      <a href="#">
+        <picture>
+          <source media="(max-width: 767px)" srcset="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/sp-slider2.webp">
+          <img src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/slider2.webp" alt="" width="1905" height="904">
+        </picture>
+      </a>
+    </div>
+    <div class="item">
+      <a href="#">
+        <picture>
+          <source media="(max-width: 767px)" srcset="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/sp-slider3.webp">
+          <img src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/slider3.webp" alt="" width="1905" height="904">
+        </picture>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="top-product relative bg-red color-white">
+  <img class="bg-bottom absolute" src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/bg.webp" alt="" width="1905" height="1067">
+  <div class="container">
+    <div class="title-section text-center">
+      <h4 class="sub-title">Product lineup</h4>
+      <h2 class="title-main">商品ラインナップ</h2>
+    </div>
+    <div class="product-tab">
+      <div class="tab-title list-flex">
+        <a class="active" href="#steak-meat">ステーキ肉</a>
+        <a href="#yakiniku">焼肉</a>
+        <a href="#sukiyaki">すき焼き肉</a>
+        <a href="#shabu-shabu">しゃぶしゃぶ肉</a>
+        <a href="#meat-dishes">肉料理用</a>
+        <a href="#gifts">贈答用</a>
+      </div>
+      <div class="tab-content">
+        <div class="tab-item" id="steak-meat">
+          <div class="product-list list-flex">
+            {% for product in collections['steak-meat'].products limit: 6  %}
+              <div class="product-item relative">
+                <a href="{{ product.url }}" class="link-absolute absolute"></a>
+                <div class="featured image-fit">
+                  <img src="{{ product.featured_image | image_url }}" 
+                       alt="{{ product.title | escape }}" 
+                       width="360" 
+                       height="288">
+                </div>
+                <div class="information">
+                  <h3>{{ product.title }}</h3>
+                  <div class="price">
+                    {{ product.price | money_without_currency }}円（税込）
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-item" id="yakiniku">
+          <div class="product-list list-flex">
+            {% for product in collections['yakiniku'].products limit: 6  %}
+              <div class="product-item relative">
+                <a href="{{ product.url }}" class="link-absolute absolute"></a>
+                <div class="featured image-fit">
+                  <img src="{{ product.featured_image | image_url }}" 
+                       alt="{{ product.title | escape }}" 
+                       width="360" 
+                       height="288">
+                </div>
+                <div class="information">
+                  <h3>{{ product.title }}</h3>
+                  <div class="price">
+                    {{ product.price | money_without_currency }}円（税込）
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-item" id="sukiyaki">
+          <div class="product-list list-flex">
+            {% for product in collections['sukiyaki'].products limit: 6  %}
+              <div class="product-item relative">
+                <a href="{{ product.url }}" class="link-absolute absolute"></a>
+                <div class="featured image-fit">
+                  <img src="{{ product.featured_image | image_url }}" 
+                       alt="{{ product.title | escape }}" 
+                       width="360" 
+                       height="288">
+                </div>
+                <div class="information">
+                  <h3>{{ product.title }}</h3>
+                  <div class="price">
+                    {{ product.price | money_without_currency }}円（税込）
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-item" id="shabu-shabu">
+          <div class="product-list list-flex">
+            {% for product in collections['shabu-shabu'].products limit: 6  %}
+              <div class="product-item relative">
+                <a href="{{ product.url }}" class="link-absolute absolute"></a>
+                <div class="featured image-fit">
+                  <img src="{{ product.featured_image | image_url }}" 
+                       alt="{{ product.title | escape }}" 
+                       width="360" 
+                       height="288">
+                </div>
+                <div class="information">
+                  <h3>{{ product.title }}</h3>
+                  <div class="price">
+                    {{ product.price | money_without_currency }}円（税込）
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-item" id="meat-dishes">
+          <div class="product-list list-flex">
+            {% for product in collections['meat-dishes'].products limit: 6  %}
+              <div class="product-item relative">
+                <a href="{{ product.url }}" class="link-absolute absolute"></a>
+                <div class="featured image-fit">
+                  <img src="{{ product.featured_image | image_url }}" 
+                       alt="{{ product.title | escape }}" 
+                       width="360" 
+                       height="288">
+                </div>
+                <div class="information">
+                  <h3>{{ product.title }}</h3>
+                  <div class="price">
+                    {{ product.price | money_without_currency }}円（税込）
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-item" id="gifts">
+          <div class="product-list list-flex">
+            {% for product in collections['for-gifts'].products limit: 6  %}
+              <div class="product-item relative">
+                <a href="{{ product.url }}" class="link-absolute absolute"></a>
+                <div class="featured image-fit">
+                  <img src="{{ product.featured_image | image_url }}" 
+                       alt="{{ product.title | escape }}" 
+                       width="360" 
+                       height="288">
+                </div>
+                <div class="information">
+                  <h3>{{ product.title }}</h3>
+                  <div class="price">
+                    {{ product.price | money_without_currency }}円（税込）
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-shop list-flex text-center">
+      <div class="product-shop-item relative">
+        <a class="link-absolute absolute" href="/collections/meatpart"></a>
+        <img src="{{ 'meat.webp' | asset_url }}" alt="" class="icon" width="68" height="48">
+        <h3>部位で選ぶ</h3>
+        <div class="icon-right">
+          <img src="{{ 'right-slider.svg' | asset_url }}" alt="" width="5" height="9">
+        </div>
+      </div>
+      <div class="product-shop-item relative">
+        <a class="link-absolute absolute" href="/collections/price"></a>
+        <img src="{{ 'yen.webp' | asset_url }}" alt="" class="icon" width="84" height="48">
+        <h3>価格で選ぶ</h3>
+        <div class="icon-right">
+          <img src="{{ 'right-slider.svg' | asset_url }}" alt="" width="5" height="9">
+        </div>
+      </div>
+      <div class="product-shop-item relative">
+        <a class="link-absolute absolute" href="/collections/guramu"></a>
+        <img src="{{ 'scale.webp' | asset_url }}" alt="" class="icon" width="51" height="48">
+        <h3>グラム数で選ぶ</h3>
+        <div class="icon-right">
+          <img src="{{ 'right-slider.svg' | asset_url }}" alt="" width="5" height="9">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="top-recommendation">
+  <div class="container">
+    <div class="title-section text-center">
+      <h4 class="sub-title">Grandpa's recommendation</h4>
+      <h1 class="title-main">神戸牛のじいちゃんの <br class="on-sp">おすすめ </h1>
+    </div>
+    <div class="recommendation-list list-flex">
+      {% for product in collections['ranking'].products limit: 5  %}
+        <div class="recommendation-item relative">
+          <a href="{{ product.url }}" class="link-absolute absolute"></a>
+          <div class="number">
+            {% assign rank = forloop.index %}
+            {% if rank <= 3 %}
+              <img src="{{ 'number' | append: rank | append: '.svg' | asset_url }}" alt="Rank {{ rank }}" width="62" height="52">
+            {% else %}
+              {{ rank }}
+            {% endif %}
+          </div>
+          <div class="featured image-fit">
+            <img
+              src="{{ product.featured_image | image_url: width: 220, height: 176 }}"
+              alt="{{ product.title | escape }}"
+              width="220"
+              height="176">
+          </div>
+          <div class="information">
+            <h3>{{ product.title }}</h3>
+            <div class="price">
+              {{ product.price | money_without_currency | money_with_delimiter }}円（税込）
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="text-center">
+      <a href="#" class="btn"><span>もっと見る</span></a>
+    </div>
+    <div class="top-function list-flex text-center">
+      <a href="/pages/shopping-guide">
+        <img src="{{ 'book.svg' | asset_url }}" alt="" width="74" height="54"><span>ショッピングガイド </span>
+      </a>
+      <a href="/pages/q-a">
+        <img src="{{ 'question.svg' | asset_url }}" alt="" width="72" height="65"><span>よくある質問 </span>
+      </a>
+    </div>
+    <div class="text-center">
+      <a href="/pages/shopowner" class="top-about list-flex flex-middle">
+        <img src="{{ 'cow.svg' | asset_url }}" alt="" width="87" height="56">
+        <span>当店・店主について</span>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="top-information color-white">
+  <div class="container">
+    <div class="top">
+      <h2 class="title text-center">極上の神戸牛で、 <br class="on-sp">至福のひとときを </h2>
+      <div class="slogan list-flex flex-middle">
+        <img src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/grandpa.webp" alt="" class="featured" width="280" height="479">
+        <div class="description">
+          <p>日本を代表する高級和牛の一つ「神戸牛」。 <br /> 神戸市の神明精肉店は、 <br /> その神戸牛の中でも本当においしいものだけを取り扱う精肉店です。 <br /> 仕入れるお肉の個体識別番号を追跡するなど、 <br /> 並々ならぬこだわりを持ち、厳選したものだけをご提供しております。 <br /> 甘味やうま味、食感などすべてにおいて極上な神戸牛は、 <br /> ご自宅用だけでなく贈答用にもピッタリ。 <br /> 家族やご友人と至福のひとときをお過ごしください。 </p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom list-flex">
+      <div class="information">
+        <img src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/title.webp" alt="" class="title" width="352" height="48">
+        <p class="address">【明石公設地方卸売市場】 <br />〒673-0044　兵庫県明石市藤江2029番地の1 </p>
+        <div class="time-work">
+          <span>営業時間</span>6:00～14:00 <span class="closed-day">定休日</span>水曜日、日曜日
+        </div>
+        <img src="https://cdn.shopify.com/s/files/1/0636/1474/6703/files/table.webp" alt="" class="featured-time" width="504" height="97">
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.447189442387!2d134.9491350767229!3d34.66866147293114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554d46839652e65%3A0x2542a77eea689cd5!2z5piO55-z5biC5YWs6Kit5Zyw5pa55Y245aOy5biC5aC0IOODleODvOODieODqeODs-ODiuODvA!5e0!3m2!1sja!2s!4v1749023498729!5m2!1sja!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>

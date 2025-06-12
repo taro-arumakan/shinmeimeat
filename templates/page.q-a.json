@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "faq_AVpKXg": {
+      "type": "faq",
+      "blocks": {
+        "category_E68bQH": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_dXeq7C": {
+          "type": "question",
+          "settings": {
+            "question": "注文したお肉はどんな状態で届きますか？",
+            "answer": "<p>冷凍にて発送いたしますので、お召し上がりの前日に冷蔵庫で解凍ください。<br/>贈答用は木箱+化粧箱、ご家庭用は食品用トレーと化粧箱または竹皮と化粧箱にて梱包発送いたします。</p>"
+          }
+        },
+        "question_V3QABC": {
+          "type": "question",
+          "settings": {
+            "question": "贈り物に購入したいのですが、配送中に汚れないか心配です。",
+            "answer": "<p>万全の体制でお届けしますのでご安心ください。化粧箱ごとラップで包んで配送することで、クール便の湿気からお肉を守っています。</p>"
+          }
+        },
+        "question_TnPUfP": {
+          "type": "question",
+          "settings": {
+            "question": "遠方に配送してもらうことはできますか？",
+            "answer": "<p>もちろん可能です。遠方にお住まいでもおいしく召し上がっていただくため、蓄冷剤の量を細かく管理して配送しております。</p>"
+          }
+        },
+        "question_mHMt8z": {
+          "type": "question",
+          "settings": {
+            "question": "配達された際に不在で、商品を受け取れなかった場合はどうすればいいですか？",
+            "answer": "<p>ご不在の場合は、ヤマト運輸の不在票が郵便受けに入っておりますので、直接ヤマト運輸にご在宅の日時をお伝えください。</p>"
+          }
+        },
+        "question_AaPawp": {
+          "type": "question",
+          "settings": {
+            "question": "法人向けの販売はありますか？",
+            "answer": "<p>法人様からのご注文も大歓迎ですので、まずはご相談ください。ご予算やシチュエーションなどを伺い、最適な商品をご提案いたします。のしをはじめ、あいさつ状の同封、領収書の発行などさまざまな対応が可能です。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_E68bQH",
+        "question_dXeq7C",
+        "question_V3QABC",
+        "question_TnPUfP",
+        "question_mHMt8z",
+        "question_AaPawp"
+      ],
+      "custom_css": [
+        ".h2 {font-family: \"Sawarabi Mincho\", serif !important;}"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "<strong>-よくある質問-</strong>",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_AVpKXg"
+  ]
+}
