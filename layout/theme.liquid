@@ -159,9 +159,11 @@
   			<div class="container">
   				<div class="hd-box-bottom list-flex flex-center flex-middle">
   					<div class="form-search">
-  						<form action="">
-  							<input class="input-search" type="text" placeholder="キーワードを入力してください">
-  							<input class="input-submit" type="submit" value="検索">
+              <form class="main-search-form" action="{{ routes.search_url }}" method="get" role="search">
+              <div class="relative">
+								{%- render 'input', type: 'text', name: 'q', label: "キーワードを入力してください", autocomplete: 'off', autocorrect: 'off' -%}
+                <button type="submit" class="input-suffix link-faded">{% render 'icon' with 'search' %}</button>
+							</div>
   						</form>
   					</div>
   					<div class="menu-main">
