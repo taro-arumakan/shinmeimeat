@@ -49,9 +49,9 @@
               <div class="product-item relative">
                 <a href="{{ product.url }}" class="link-absolute absolute"></a>
                 <div class="featured image-fit">
-                  <img src="{{ product.featured_image | image_url }}" 
-                       alt="{{ product.title | escape }}" 
-                       width="360" 
+                  <img src="{{ product.featured_image | image_url }}"
+                       alt="{{ product.title | escape }}"
+                       width="360"
                        height="288">
                 </div>
                 <div class="information">
@@ -70,9 +70,9 @@
               <div class="product-item relative">
                 <a href="{{ product.url }}" class="link-absolute absolute"></a>
                 <div class="featured image-fit">
-                  <img src="{{ product.featured_image | image_url }}" 
-                       alt="{{ product.title | escape }}" 
-                       width="360" 
+                  <img src="{{ product.featured_image | image_url }}"
+                       alt="{{ product.title | escape }}"
+                       width="360"
                        height="288">
                 </div>
                 <div class="information">
@@ -91,9 +91,9 @@
               <div class="product-item relative">
                 <a href="{{ product.url }}" class="link-absolute absolute"></a>
                 <div class="featured image-fit">
-                  <img src="{{ product.featured_image | image_url }}" 
-                       alt="{{ product.title | escape }}" 
-                       width="360" 
+                  <img src="{{ product.featured_image | image_url }}"
+                       alt="{{ product.title | escape }}"
+                       width="360"
                        height="288">
                 </div>
                 <div class="information">
@@ -112,9 +112,9 @@
               <div class="product-item relative">
                 <a href="{{ product.url }}" class="link-absolute absolute"></a>
                 <div class="featured image-fit">
-                  <img src="{{ product.featured_image | image_url }}" 
-                       alt="{{ product.title | escape }}" 
-                       width="360" 
+                  <img src="{{ product.featured_image | image_url }}"
+                       alt="{{ product.title | escape }}"
+                       width="360"
                        height="288">
                 </div>
                 <div class="information">
@@ -133,9 +133,9 @@
               <div class="product-item relative">
                 <a href="{{ product.url }}" class="link-absolute absolute"></a>
                 <div class="featured image-fit">
-                  <img src="{{ product.featured_image | image_url }}" 
-                       alt="{{ product.title | escape }}" 
-                       width="360" 
+                  <img src="{{ product.featured_image | image_url }}"
+                       alt="{{ product.title | escape }}"
+                       width="360"
                        height="288">
                 </div>
                 <div class="information">
@@ -154,9 +154,9 @@
               <div class="product-item relative">
                 <a href="{{ product.url }}" class="link-absolute absolute"></a>
                 <div class="featured image-fit">
-                  <img src="{{ product.featured_image | image_url }}" 
-                       alt="{{ product.title | escape }}" 
-                       width="360" 
+                  <img src="{{ product.featured_image | image_url }}"
+                       alt="{{ product.title | escape }}"
+                       width="360"
                        height="288">
                 </div>
                 <div class="information">
@@ -206,7 +206,7 @@
       <h1 class="title-main">神戸牛のじいちゃんの <br class="on-sp">おすすめ </h1>
     </div>
     <div class="recommendation-list list-flex">
-      {% for product in collections['ranking'].products limit: 5  %}
+      {% for product in section.settings.grandpas_recommendation.products limit: section.settings.products_per_row  %}
         <div class="recommendation-item relative">
           <a href="{{ product.url }}" class="link-absolute absolute"></a>
           <div class="number">
@@ -234,7 +234,7 @@
       {% endfor %}
     </div>
     <div class="text-center">
-      <a href="#" class="btn"><span>もっと見る</span></a>
+      <a href="{{ section.settings.grandpas_recommendation.url }}" class="btn"><span>もっと見る</span></a>
     </div>
     <div class="top-function list-flex text-center">
       <a href="/pages/shopping-guide">
@@ -278,3 +278,27 @@
     </div>
   </div>
 </section>
+
+{% schema %}
+{
+  "name": "index page",
+  "class": "shopify-section--main-index",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "grandpas_recommendation",
+      "label": "Grandpa's Recommendation",
+    },
+    {
+      "type": "range",
+      "id": "products_per_row",
+      "min": 2,
+      "max": 8,
+      "label": "t:global.product_list.products_per_row_desktop",
+      "info": "t:global.product_list.products_per_row_desktop_info",
+      "default": 4
+    },
+  ],
+}
+{% endschema %}
