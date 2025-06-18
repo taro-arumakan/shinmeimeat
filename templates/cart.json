@@ -20,7 +20,7 @@
         "show_order_weight": false,
         "show_shipping_text": true,
         "show_accelerated_buttons": false,
-        "show_shipping_estimator": true
+        "show_shipping_estimator": false
       }
     }
   },
