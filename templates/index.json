@@ -12,9 +12,8 @@
     "main-index": {
       "type": "main-index",
       "settings": {
-        "granpas_recommendation": "recommend",
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4
+        "grandpas_recommendation": "recommend",
+        "products_per_row": 5
       }
     }
   },
